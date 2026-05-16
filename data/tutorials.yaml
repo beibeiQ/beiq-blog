@@ -1,0 +1,7 @@
+items:
+  - title: "Tutorials"
+    summary: "Tutorials of bioinfo/AI/Data sci."
+    tags: ["Tutorials"]
+    links:
+      - label: "View tutorials"
+        url: "/tutorials/"
