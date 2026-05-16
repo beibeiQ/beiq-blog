@@ -1,0 +1,9 @@
+items:
+  - title: "Immunology and Genetics Notes"
+    summary: >
+      Research notes and literature workflows around immune regulation,
+      genetics, and bioinformatics.
+    tags: ["Immunology", "Genetics", "Bioinformatics"]
+    links:
+      - label: "Read more"
+        url: "/research/"
