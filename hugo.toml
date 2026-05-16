@@ -10,27 +10,32 @@ enableRobotsTXT = true
   location = "China"
 
 [params.homepage]
-  sections = ["hero", "news", "research", "writing"]
+  sections = ["hero", "posts", "tags", "tutorials", "project"]
 
   [params.homepage.hero]
     enable = true
     layout = "hero"
     title = "About"
 
-  [params.homepage.news]
-    enable = true
-    layout = "news"
-    title = "News"
-
-  [params.homepage.research]
-    enable = true
-    layout = "cards"
-    title = "Research"
-
-  [params.homepage.writing]
+  [params.homepage.posts]
     enable = true
     layout = "grid"
-    title = "Writing"
+    title = "Posts"
+
+  [params.homepage.tags]
+    enable = true
+    layout = "grid"
+    title = "Tags"
+
+  [params.homepage.project]
+    enable = true
+    layout = "cards"
+    title = "Tutorials"
+
+  [params.homepage.publications]
+    enable = true
+    layout = "cards"
+    title = "Project"
 
 [markup]
   [markup.goldmark]
