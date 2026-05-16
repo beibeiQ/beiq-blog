@@ -1,0 +1,7 @@
+items:
+  - title: "AI-assisted Literature Workflow"
+    summary: "Building workflows for paper discovery, reading, summarization, and research note organization."
+    tags: ["AI", "Literature", "Research Workflow"]
+    links:
+      - label: "View project"
+        url: "/project/"
