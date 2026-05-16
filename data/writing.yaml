@@ -1,0 +1,4 @@
+items:
+  - title: "Research Blog"
+    summary: "Notes on papers, workflows, bioinformatics, and AI-assisted research."
+    link: "/posts/"
