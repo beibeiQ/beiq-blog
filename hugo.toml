@@ -1,0 +1,60 @@
+baseURL = "https://beiq.paperresearch.site/"
+languageCode = "en-us"
+title = "beiQ"
+theme = "PaperMod"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+
+[pagination]
+pagerSize = 10
+
+[params]
+env = "production"
+title = "beiQ"
+description = "Personal academic website and research blog for notes on immunology, genetics, bioinformatics, literature workflows, and AI-assisted research automation."
+keywords = ["Immunology", "Genetics", "Bioinformatics", "Research", "Literature Automation", "AI Agent"]
+author = "beiQ"
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowToc = true
+TocOpen = false
+
+[params.homeInfoParams]
+Title = "beiQ"
+Content = """
+Immunology and genetics researcher. This site collects research notes, literature workflows, bioinformatics ideas, and AI-assisted research automation experiments.
+"""
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:contact@paperresearch.site"
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 10
+
+[[menu.main]]
+identifier = "research"
+name = "Research"
+url = "/research/"
+weight = 20
+
+[[menu.main]]
+identifier = "notes"
+name = "Notes"
+url = "/notes/"
+weight = 30
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 40

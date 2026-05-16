@@ -1,0 +1,5 @@
+public/
+resources/_gen/
+.hugo_build.lock
+.tools/
+ai_agent_task_hugo_blog_beiq.md
