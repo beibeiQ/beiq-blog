@@ -1,60 +1,63 @@
 baseURL = "https://beiq.paperresearch.site/"
 languageCode = "en-us"
 title = "beiQ"
-theme = "PaperMod"
-defaultContentLanguage = "en"
+theme = "celadon"
 enableRobotsTXT = true
 
-[pagination]
-pagerSize = 10
-
 [params]
-env = "production"
-title = "beiQ"
-description = "Personal academic website and research blog for notes on immunology, genetics, bioinformatics, literature workflows, and AI-assisted research automation."
-keywords = ["Immunology", "Genetics", "Bioinformatics", "Research", "Literature Automation", "AI Agent"]
-author = "beiQ"
-DateFormat = "January 2, 2006"
-defaultTheme = "auto"
-ShowReadingTime = true
-ShowShareButtons = false
-ShowPostNavLinks = true
-ShowBreadCrumbs = true
-ShowCodeCopyButtons = true
-ShowWordCount = true
-ShowToc = true
-TocOpen = false
+  description = "Personal academic website and research blog for immunology, genetics, bioinformatics, and AI-assisted research workflows."
+  email = "contact@paperresearch.site"
+  location = "China"
 
-[params.homeInfoParams]
-Title = "beiQ"
-Content = """
-Immunology and genetics researcher. This site collects research notes, literature workflows, bioinformatics ideas, and AI-assisted research automation experiments.
-"""
+[params.homepage]
+  sections = ["hero", "news", "research", "writing"]
 
-[[params.socialIcons]]
-name = "email"
-url = "mailto:contact@paperresearch.site"
+  [params.homepage.hero]
+    enable = true
+    layout = "hero"
+    title = "About"
 
-[[menu.main]]
-identifier = "posts"
-name = "Posts"
-url = "/posts/"
-weight = 10
+  [params.homepage.news]
+    enable = true
+    layout = "news"
+    title = "News"
 
-[[menu.main]]
-identifier = "research"
-name = "Research"
-url = "/research/"
-weight = 20
+  [params.homepage.research]
+    enable = true
+    layout = "cards"
+    title = "Research"
 
-[[menu.main]]
-identifier = "notes"
-name = "Notes"
-url = "/notes/"
-weight = 30
+  [params.homepage.writing]
+    enable = true
+    layout = "grid"
+    title = "Writing"
 
-[[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about/"
-weight = 40
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        enableInShortcodes = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [
+            ["\\[", "\\]"],
+            ["$$", "$$"]
+          ]
+          inline = [
+            ["\\(", "\\)"],
+            ["$", "$"]
+          ]
+
+  [markup.highlight]
+    style = "friendly"
+    noClasses = false
+    lineNos = true
+    guessSyntax = true
+
+[[cascade]]
+  layout = "single"
+  [cascade._target]
+    path = "/**"
+    kind = "page"
