@@ -1,34 +1,13 @@
-baseURL = "https://beiq.paperresearch.site/"
-languageCode = "en-us"
-title = "beiQ"
-theme = "PaperMod"
+baseURL = 'https://beiq.paperresearch.site/'
+languageCode = 'en-us'
+title = 'beiQ'
+theme = 'celadon'
 enableRobotsTXT = true
 
 [params]
-  description = "Personal academic website and research blog for immunology, genetics, bioinformatics, and AI-assisted research workflows."
-  email = "contact@paperresearch.site"
-  location = "China"
-
-[params.profileMode]
-  enabled = true
-  title = "beiQ"
-  subtitle = "Immunology & Genetics Researcher"
-  imageUrl = "images/profile.jpg"
-  imageTitle = "Profile picture"
-  imageWidth = 150
-  imageHeight = 150
-  [[params.profileMode.buttons]]
-    name = "Posts"
-    url = "/posts/"
-  [[params.profileMode.buttons]]
-    name = "Tutorials"
-    url = "/tutorials/"
-  [[params.profileMode.buttons]]
-    name = "Project"
-    url = "/project/"
-  [[params.profileMode.buttons]]
-    name = "About"
-    url = "/about/"
+  description = 'Personal academic website and research blog for immunology, genetics, bioinformatics, and AI-assisted research workflows.'
+  email = 'contact@paperresearch.site'
+  location = 'China'
 
 [params.homepage]
   sections = ["hero", "posts", "tags", "tutorials", "project"]
@@ -45,7 +24,7 @@ enableRobotsTXT = true
 
   [params.homepage.tags]
     enable = true
-    layout = "grid"
+    layout = "cards"
     title = "Tags"
 
   [params.homepage.tutorials]
@@ -75,42 +54,11 @@ enableRobotsTXT = true
             ["\\(", "\\)"],
             ["$", "$"]
           ]
-
   [markup.highlight]
     style = "friendly"
     noClasses = false
     lineNos = true
     guessSyntax = true
-
-[[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 10
-
-[[menu.main]]
-  name = "About"
-  url = "/about/"
-  weight = 20
-
-[[menu.main]]
-  name = "Posts"
-  url = "/posts/"
-  weight = 30
-
-[[menu.main]]
-  name = "Tags"
-  url = "/tags/"
-  weight = 40
-
-[[menu.main]]
-  name = "Tutorials"
-  url = "/tutorials/"
-  weight = 50
-
-[[menu.main]]
-  name = "Project"
-  url = "/project/"
-  weight = 60
 
 [[cascade]]
   layout = "single"

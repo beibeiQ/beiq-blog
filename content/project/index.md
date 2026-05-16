@@ -1,8 +1,8 @@
 ---
-title: "Research Projects"
+title: "Project"
 ---
 
-# Research Projects
+# Project
 
 This section showcases my active research projects and tools.
 

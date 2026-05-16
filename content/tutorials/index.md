@@ -1,8 +1,8 @@
 ---
-title: "Bioinformatics Tutorials"
+title: "Tutorials"
 ---
 
-# Bioinformatics Tutorials
+# Tutorials
 
 Welcome to my tutorials section. Here you'll find guides on bioinformatics, data science, and AI-assisted research workflows.
 
@@ -13,3 +13,7 @@ Welcome to my tutorials section. Here you'll find guides on bioinformatics, data
 - **Transcriptomics**: RNA-seq analysis pipelines
 - **Machine Learning**: AI applications in biological data analysis
 - **Workflow Automation**: Using AI tools to streamline research processes
+
+## Getting Started
+
+Check back regularly for new tutorials as I continue to document my research workflows.
