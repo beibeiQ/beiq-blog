@@ -1,4 +1,8 @@
 items:
-  - title: "Research Notes"
-    summary: "Notes on immunology, genetics, bioinformatics, papers, and AI-assisted research workflows."
-    link: "/posts/"
+  - title: "First Post"
+    summary: "Welcome to my blog! This is my first post about bioinformatics and research workflows."
+    image: ""
+    date: "2025-01-01"
+    links:
+      - label: "Read More"
+        url: "/posts/first-post/"

@@ -1,4 +1,5 @@
 items:
-  - title: "Browse by Tags"
-    summary: "Explore notes and posts by topic."
-    link: "/tags/"
+  - title: "Tags"
+    description: "Browse all posts by topic tags."
+    image: ""
+    url: "/tags/"

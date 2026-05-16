@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "WebSearch",
-      "Bash(git submodule *)"
+      "Bash(git submodule *)",
+      "Bash(git push *)"
     ]
   }
 }
