@@ -1,0 +1,16 @@
+name: "beiQ"
+title: "Immunology & Genetics Researcher"
+summary: >
+  I study immunology, genetics, bioinformatics, literature workflows,
+  and AI-assisted research automation.
+affiliation: "PhD researcher<br>Immunology and Genetics"
+highlights:
+  - "Immunology"
+  - "Genetics"
+  - "Bioinformatics"
+  - "AI-assisted research workflows"
+links:
+  - label: "Email"
+    url: "mailto:contact@paperresearch.site"
+  - label: "GitHub"
+    url: "https://github.com/beibeiQ"
